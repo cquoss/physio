@@ -8,10 +8,18 @@
     <groupId>de.quoss.physio</groupId>
     <artifactId>public-prescriptions</artifactId>
     <dependencies>
+        <!-- compile scope -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>2.0.1</version>
+        </dependency>
+        <!-- runtime scope -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.5</version>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 </project>
